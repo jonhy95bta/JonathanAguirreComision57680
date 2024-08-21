@@ -108,6 +108,7 @@ footer p {
 
 .introduccion p {
 
+    padding-top: 10px;
     width: 43.75rem;
     height: 5rem;
     text-indent: .625rem
@@ -242,11 +243,22 @@ color: white;
     flex-wrap: wrap;
     align-items:center;
     justify-content: center;
-    padding: .625rem;
+    gap: 50px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.galeria p {
+
+    width: 900px;
 }
 
+.galeria h3 {
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
 .galeria div img {
-
+padding-top: 10px;
 height: 12.5rem;
 width: 18.75rem;
 object-fit: cover;
